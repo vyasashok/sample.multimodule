@@ -30,6 +30,7 @@ String accountInfo = "Your account number is ".concat(account.getNumber());
 model.put("message", this.message);  
 model.put("account", accountInfo);  
 return "welcome/show";  
+
 }  
 @RequestMapping("foo")  
 public String foo(Map<String, Object> model) {  
